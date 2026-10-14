@@ -105,8 +105,6 @@ Maksimal 5 submission per hari; pilih maksimal 2 submission final sebelum kompet
 
 ## Laporan Interpretasi
 
-> Angka di bawah berasal dari run di Kaggle (533.465 baris latih, seed 42). Bagian bertanda **TODO** perlu dilengkapi dari gambar di `reports/figures/`.
-
 ### Hasil validasi
 
 | Model | Macro F1 CV (mean +/- std) | Catatan |
