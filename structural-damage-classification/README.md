@@ -9,7 +9,7 @@ structural-damage-classification/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
-├── data/                     # train.csv, test.csv, sample_submission.csv (tidak di-commit)
+├── data/                     # train.csv, test.csv, sample_submission.csv (tidak di-commit) (ditambahkan sendiri)
 ├── notebooks/
 │   ├── 01_eda.ipynb          # eksplorasi data
 │   ├── 02_modeling.ipynb     # perbandingan model, tuning, evaluasi, feature importance
@@ -21,8 +21,8 @@ structural-damage-classification/
 │   ├── train.py                # pipeline, CV, tuning, bobot kelas, simpan model
 │   ├── visualize.py            # fungsi visualisasi EDA dan evaluasi
 │   └── predict.py              # prediksi test, validasi format, submit via CLI
-├── models/                   # pipeline_model_<nama>.pkl, class_weights_<nama>.json
-├── submissions/              # submission.csv
+├── models/                   # pipeline_model_<nama>.pkl, class_weights_<nama>.json (ditambahkan sendiri)
+├── submissions/              # submission.csv 
 └── reports/
     └── figures/              # gambar hasil analisis
 ```
